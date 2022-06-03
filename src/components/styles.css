@@ -1,0 +1,69 @@
+.background {
+  position: absolute;
+  background: url("../images/Image_2.png") no-repeat padding-box;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 900px;
+}
+
+.heading {
+  margin-top: 80px;
+  margin-left: 142px;
+  width: 196px;
+  height: 38px;
+  text-align: center;
+}
+.fill {
+  font: normal normal bold 32px/38px Roboto;
+  /* font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: bold;
+  font-stretch: normal;
+  font-size: 32px;
+  line-height: 38px;
+  font-family: Roboto; */
+  letter-spacing: 0px;
+  color: #fe5454;
+  opacity: 1;
+}
+
+.content {
+  text-align: center;
+  font: normal normal bold 18px/22px Roboto;
+  letter-spacing: 0px;
+  color: #889296;
+  opacity: 1;
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 89px;
+}
+.input2last {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.inputText {
+  position: relative;
+  margin-top: 24px;
+  height: 56px;
+  width: 328px;
+  border-radius: 4px 4px 0px 0px;
+  background: rgba(0, 0, 0, 0.07);
+}
+
+.inside {
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.fullNameText {
+  position: relative;
+  text-align: left;
+  font: normal normal bold 12px/14px "Roboto";
+  letter-spacing: 0.4px;
+  color: #fe5454;
+}
