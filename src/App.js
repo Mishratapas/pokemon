@@ -1,10 +1,9 @@
-import Background from "./components/Background";
-import ByDialog from "./components/ByDialog";
+import UpPaper from "./components/UpPaper";
 
 function App() {
   return (
     <div>
-      <Background />
+      <UpPaper />
     </div>
   );
 }

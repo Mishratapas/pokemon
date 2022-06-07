@@ -1,10 +1,9 @@
-.background {
-  position: absolute;
-  background: url("../images/Image_2.png") no-repeat padding-box;
-  background-position: center;
-  background-attachment: fixed;
-  width: 100%;
-  height: 900px;
+.card {
+  width: 488px;
+  height: 1181px;
+  margin-top: 60px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px #00000029;
 }
 
 .heading {
@@ -14,56 +13,211 @@
   height: 38px;
   text-align: center;
 }
-.fill {
-  font: normal normal bold 32px/38px Roboto;
-  /* font-style: normal;
-  font-variant-ligatures: normal;
-  font-variant-caps: normal;
-  font-variant-numeric: normal;
-  font-variant-east-asian: normal;
-  font-weight: bold;
-  font-stretch: normal;
-  font-size: 32px;
-  line-height: 38px;
-  font-family: Roboto; */
+.fillText {
+  text-align: center;
+  font: normal normal bold 32px/38px "Roboto";
   letter-spacing: 0px;
-  color: #fe5454;
+  color: rgba(254, 84, 84, 1);
   opacity: 1;
 }
-
-.content {
+.wewill {
+  width: 319px;
+  height: 59px;
+  margin-left: 80px;
+  margin-top: 40px;
   text-align: center;
+}
+
+.text {
   font: normal normal bold 18px/22px Roboto;
   letter-spacing: 0px;
   color: #889296;
   opacity: 1;
-  margin-top: 40px;
-  margin-left: 80px;
   margin-right: 89px;
 }
+
 .input2last {
   margin-left: 80px;
   margin-right: 80px;
 }
 
-.inputText {
-  position: relative;
-  margin-top: 24px;
+.fullname {
   height: 56px;
   width: 328px;
   border-radius: 4px 4px 0px 0px;
   background: rgba(0, 0, 0, 0.07);
+  border: none;
+  outline: none;
+  border-bottom: 2px solid rgb(0, 0, 0);
 }
 
-.inside {
-  margin-top: 16px;
+.fullinput {
   margin-left: 16px;
 }
 
 .fullNameText {
-  position: relative;
+  width: 68px;
+  height: 19px;
+  font: normal normal normal 12px/14px Roboto;
+  letter-spacing: 0.4px;
+  color: rgba(254, 84, 84, 1) !important;
+  opacity: 1;
+}
+
+.borderBottom {
+  border: none;
+  outline: none;
+  border-bottom: "#FE5454";
+}
+
+.inputtextText {
+  font: normal normal normal 16px/19px Roboto;
+  letter-spacing: 0.15px;
+  color: rgba(254, 84, 84, 1);
+  opacity: 1;
+}
+
+.weknow {
+  margin-top: 10px;
+}
+
+.weknowText {
   text-align: left;
-  font: normal normal bold 12px/14px "Roboto";
+  font: normal normal normal 12px/14px Roboto;
   letter-spacing: 0.4px;
   color: #fe5454;
+  opacity: 1;
+}
+
+.codeName {
+  width: 328px;
+  height: 56px;
+  margin-top: 24px;
+  background: rgba(0, 0, 0, 0.07) 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+}
+
+.codeNameText {
+  text-align: left;
+  padding-left: 16px;
+  padding-top: 13px;
+  font: normal normal normal 16px/19px Roboto;
+  letter-spacing: 0.15px;
+  color: #00000099;
+}
+
+.howfar {
+  text-align: left;
+  font: normal normal normal 14px/17px Roboto;
+  letter-spacing: 0.46px;
+  color: #000000de;
+  opacity: 1;
+}
+
+.dropDown {
+  width: 328px;
+  height: 56px;
+  margin-top: 40px;
+  background: rgba(0, 0, 0, 0.07) 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.whatsyour {
+  border: none;
+  border-color: #889296;
+  text-align: left;
+  font: normal normal normal 16px/19px Roboto;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+}
+
+.twoContent {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.button {
+  background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+  border-style: none;
+  opacity: 1;
+}
+
+.modal {
+  margin-top: 160px;
+}
+
+.button2 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border-style: none;
+  background: rgba(254, 84, 84, 1) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.modalDropDownBG {
+  width: 328px;
+  height: 56px;
+  margin-top: 40px;
+  background: rgba(0, 0, 0, 0.07) 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.modalDropDown {
+  width: 328px;
+  height: 56px;
+  background: #000000 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 0.07;
+}
+
+.modalBag {
+  width: 328px;
+  height: 80px;
+  margin-left: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.firstBag {
+  width: 328px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.switch {
+  box-shadow: 0px 1px 3px #00000036;
+  opacity: 1;
+}
+
+.hoverOnImage:hover {
+  border: 2px solid #fe5454;
+  border-color: #fe5454;
+}
+
+.newDialog {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin-right: 22px;
 }
